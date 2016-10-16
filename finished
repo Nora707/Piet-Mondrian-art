@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="description" content="[négyzetfestmény]">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>JS Bin</title>
+<style id="jsbin-css">
+#canvas {
+  width: 400px;
+  height: 400px;
+  background-color: ivory;
+  margin: 0 auto;
+  box-shadow: 15px 15px 10px gray;
+}
+#first-row{
+  height: 75%;
+  width: 100%;
+}
+#big-rectangle {
+  height: 100%;
+  width: 75%;
+}
+.red{
+  background-color: rgba(220, 27, 27, 1);
+}
+.brown{
+  background-color: brown;
+}
+.right{
+  float:right;
+}
+.black{
+  background-color: black;
+}
+#first-divider{
+  height: 100%;
+  width: 3%;
+}
+#first-column{
+  height: 100%;
+  width:22%;
+  background: white;
+}
+#second-divider{
+  height: 6%;
+  width: 100%;
+}
+#first-white-rectangle{
+  height: 47%;
+  width: 100%;
+}
+#second-white-rectangle{
+  height: 47%;
+  width: 100%;
+}
+#second-row{
+  height: 3%;
+  width: 100%;
+  
+}
+#third-row{
+  height: 22%;
+  width: 100%;
+  clear: right;
+}
+.yellow{
+  background: rgba(245, 226, 61, 1);
+}
+.blue{
+  background: rgba(0, 86, 177, 1);
+}
+#last-column{
+  height: 100%;
+  width: 7%;
+  background: white;
+}
+#small-white{
+  height: 42.5%;
+  width: 100%;
+}
+#small-yellow{
+  height: 42.5%;
+  width: 100%;
+}
+#third-divider{
+  height: 15%;
+  width: 100%;
+}
+#last-standing-divider{
+  height: 100%;
+  width: 3%;
+}
+#last-big-white{
+  height: 100%;
+  width: 65%;
+  background: white;
+}
+#blue-rectangle{
+  height: 100%;
+  width: 22%;
+}
+</style>
+</head>
+<body>
+<div id="canvas">
+  <div id="first-row" class="brown">
+    <div id="big-rectangle" class="red right"></div>
+    <div id="first-divider" class="black right"></div>
+    <div id="first-column" class="right">
+      <div id="first-white-rectangle"></div>
+      <div id="second-divider" class="black"></div>
+      <div id="second-white-rectangle"></div>
+    </div>
+  </div>
+    
+  <div id="second-row" class="black"></div>  
+  
+  <div id="third-row">
+    <div id="last-column" class="right">
+      <div id="small-white"></div>
+      <div id="third-divider" class="black"></div>
+      <div id="small-yellow" class="yellow"></div>
+    </div> 
+    <div id="last-standing-divider" class="black right"></div>
+    <div id="last-big-white" class="right"></div>
+    <div id="last-standing-divider" class="black right"></div>
+    <div id="blue-rectangle" class="right blue"></div>
+  </div>  
+  
+</div>
+
+
+<script id="jsbin-source-css" type="text/css">#canvas {
+  width: 400px;
+  height: 400px;
+  background-color: ivory;
+  margin: 0 auto;
+  box-shadow: 15px 15px 10px gray;
+}
+#first-row{
+  height: 75%;
+  width: 100%;
+}
+#big-rectangle {
+  height: 100%;
+  width: 75%;
+}
+.red{
+  background-color: rgba(220, 27, 27, 1);
+}
+.brown{
+  background-color: brown;
+}
+.right{
+  float:right;
+}
+.black{
+  background-color: black;
+}
+#first-divider{
+  height: 100%;
+  width: 3%;
+}
+#first-column{
+  height: 100%;
+  width:22%;
+  background: white;
+}
+#second-divider{
+  height: 6%;
+  width: 100%;
+}
+#first-white-rectangle{
+  height: 47%;
+  width: 100%;
+}
+#second-white-rectangle{
+  height: 47%;
+  width: 100%;
+}
+#second-row{
+  height: 3%;
+  width: 100%;
+  
+}
+#third-row{
+  height: 22%;
+  width: 100%;
+  clear: right;
+}
+.yellow{
+  background: rgba(245, 226, 61, 1);
+}
+.blue{
+  background: rgba(0, 86, 177, 1);
+}
+#last-column{
+  height: 100%;
+  width: 7%;
+  background: white;
+}
+#small-white{
+  height: 42.5%;
+  width: 100%;
+}
+#small-yellow{
+  height: 42.5%;
+  width: 100%;
+}
+#third-divider{
+  height: 15%;
+  width: 100%;
+}
+#last-standing-divider{
+  height: 100%;
+  width: 3%;
+}
+#last-big-white{
+  height: 100%;
+  width: 65%;
+  background: white;
+}
+#blue-rectangle{
+  height: 100%;
+  width: 22%;
+}</script>
+</body>
+</html>
